@@ -1,5 +1,9 @@
 # Web Content Q&A Tool
 
+![Screenshot 2025-02-25 152845](https://github.com/user-attachments/assets/a0640a83-2247-4a91-ab53-60dc8fdac6be)
+
+![Screenshot 2025-02-25 152945](https://github.com/user-attachments/assets/15e001bc-7281-4d32-812b-3c0b1178996a)
+
 ## 🎯 Objective  
 The **Web Content Q&A Tool** is a **Flask-based application** that extracts content from web pages and enables users to ask context-specific questions about the ingested information. The tool ensures responses are **strictly grounded in the scraped content**, making it useful for research, content analysis, and quick information retrieval.  
 

@@ -1,27 +1,34 @@
 # Web Content Q&A Tool
 
 ## 🎯 Objective  
-This project is a **Flask-based Intelligent FAQ Assistant** that utilizes **Large Language Models (LLMs)** and **Generative AI (GenAI)** to provide **context-aware, dynamic responses** based on an ingested knowledge base. The system enables real-time query handling, periodic knowledge base updates, and interaction logging for analysis and improvement.
+The **Web Content Q&A Tool** is a **Flask-based application** that extracts content from web pages and enables users to ask context-specific questions about the ingested information. The tool ensures responses are **strictly grounded in the scraped content**, making it useful for research, content analysis, and quick information retrieval.  
 
 ## 🚀 Features  
 
-### 🔹 **Knowledge Base Integration**  
-- Supports structured and unstructured data formats (**JSON, TXT, Markdown**).  
-- Allows seamless updates to ensure the assistant remains up-to-date.  
+### 🔹 **Web Content Extraction**  
+- Supports extracting text content from **URLs**.  
+- Parses and cleans the extracted content for **accurate information retrieval**.  
 
-### 🔹 **Intelligent Query Handling**  
-- Uses **Google Gemini 1.5 Flash** for high-accuracy responses.  
-- Provides **context-aware** answers strictly based on the ingested knowledge base.  
-- Implements **semantic search** for better information retrieval.  
+### 🔹 **Intelligent Q&A System**  
+- Uses **Google Gemini 1.5 Flash** for **high-accuracy** responses.  
+- Answers are **strictly derived from the scraped web content**.  
+- Implements **semantic search** to find relevant information quickly.  
 
-### 🔹 **Flask Web Application**  
-- User-friendly **web UI** for easy query input and response display.  
-- Minimalist design with **fast query processing**.  
- 
+### 🔹 **User-Friendly Web Interface**  
+- Simple **UI for adding URLs and querying content**.  
+- Provides clear, concise responses with a **chat-like experience**.  
+
+### 🔹 **Efficient Vector Search**  
+- Uses **FAISS (Facebook AI Similarity Search)** for fast text retrieval.  
+- Can be extended to **ChromaDB, Qdrant, Weaviate, CosmosDB**, and more.  
+
+### 🔹 **Admin & API Features**  
+- Allows **URL ingestion** for content analysis.  
+- API endpoint for **content extraction & Q&A automation**.  
 
 ### 🔹 **Fallback Mechanism**  
-- Provides **alternative suggestions** when an answer is unavailable.  
-- Ensures a smooth user experience by guiding users to relevant content.  
+- Provides **alternative suggestions** when answers are unavailable.  
+- Ensures users are **guided to relevant content**.  
 
 ## Tools & Technologies Used
 - **LLM**: Google Gemini

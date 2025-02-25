@@ -42,7 +42,6 @@ The **Web Content Q&A Tool** is a **Flask-based application** that extracts cont
 ## How to Run the Project Locally
 ### Prerequisites
 - Python3 installed
-- Firebase credentials configured
 - API key for Google Gemini
 
 ### Steps to Set Up and Run

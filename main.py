@@ -27,7 +27,7 @@ def scrape_text(url):
         soup = BeautifulSoup(response.text, "html.parser")
         paragraphs = [p.get_text() for p in soup.find_all("p")]
         scraped_text = " ".join(paragraphs)
-        print(scraped_text)
+        #print(scraped_text)
 
         if not scraped_text.strip():
             return False  # No meaningful text found

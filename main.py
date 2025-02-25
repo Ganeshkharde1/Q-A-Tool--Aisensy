@@ -9,7 +9,7 @@ from sklearn.metrics.pairwise import cosine_similarity
 app = Flask(__name__)
 
 # Configure Gemini API Key
-genai.configure(api_key="AIzaSyDHR9un_t6GcmXxSNMkZPrqjDP4YdPn0y4")
+genai.configure(api_key="Gemini_API_Key")
 
 # Global variables to store scraped data
 scraped_text = ""

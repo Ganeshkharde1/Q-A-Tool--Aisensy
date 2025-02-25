@@ -14,6 +14,7 @@ The **Web Content Q&A Tool** is a **Flask-based application** that extracts cont
 - Parses and cleans the extracted content for **accurate information retrieval**.  
 
 ### 🔹 **Intelligent Q&A System**  
+![download](https://github.com/user-attachments/assets/2bc5e7f5-1974-4375-85f9-47210bebcd18)
 - Uses **Google Gemini 1.5 Flash** for **high-accuracy** responses.  
 - Answers are **strictly derived from the scraped web content**.  
 - Implements **semantic search** to find relevant information quickly.  
@@ -23,6 +24,9 @@ The **Web Content Q&A Tool** is a **Flask-based application** that extracts cont
 - Provides clear, concise responses with a **chat-like experience**.  
 
 ### 🔹 **Efficient Vector Search**  
+<img width="200" src="https://github.com/user-attachments/assets/17f1010f-78bd-4aaa-93cb-c065d9b9f729"> 
+
+
 - Uses **FAISS (Facebook AI Similarity Search)** for fast text retrieval.  
 - Can be extended to **ChromaDB, Qdrant, Weaviate, CosmosDB**, and more.  
 
